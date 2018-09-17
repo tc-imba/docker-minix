@@ -2,8 +2,8 @@ FROM madworx/qemu AS build
 
 MAINTAINER Martin Kjellstrand [https://github.com/madworx]
 
-ARG ISO_URL='http://download.minix3.org/iso/minix_R3.3.0-588a35b.iso.bz2'
-ARG ISO_HASH='3234ffcebfb2a28069cf3def41c95dec'
+ARG ISO_URL='http://download.minix3.org/iso/minix_R3.2.1-972156d.iso.bz2'
+ARG ISO_HASH='4c91ba7822cfa441d27755a7e7c4711d'
 ARG DISK_SIZE=10G
 
 SHELL [ "/bin/bash", "-c" ]
